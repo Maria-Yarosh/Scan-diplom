@@ -1,0 +1,18 @@
+@import '../scss/base';
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 137px;
+    background-color: $color_primary;
+    padding-left: 60px;
+    padding-right: 45px;
+}
+
+.foter_info {
+    color: $color_primary_light;
+    width: 199px;
+    font-weight: 400px;
+    font-size: 14px;
+}

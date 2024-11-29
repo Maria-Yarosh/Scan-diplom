@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    min-height: 214px;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.search_content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+    gap: 50px;
+}
+
+.form {
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.main_headerText {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.header_container {
+    width: 817px;
+}
+
+.left_fields {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 10px;
+}

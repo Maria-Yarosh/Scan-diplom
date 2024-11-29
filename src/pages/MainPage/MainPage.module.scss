@@ -1,0 +1,30 @@
+@import '../../components//scss/base';
+
+.first_block {
+    display: flex;
+}
+
+.slider {
+    display: flex;
+    gap: 30px;
+}
+
+.third_block {
+    width: 1307px;
+    height: 575.52px;
+    margin-top: 70px;
+}
+
+.main_header {
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.header {
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.card_conteiner {
+    margin-bottom: 118px;
+}

@@ -1,0 +1,48 @@
+@import '../../../components/scss/base';
+.form {
+    max-width: 430px;
+    min-height: 524px;
+    background-color: $bg_color_primary;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .15);
+    border-radius: $b_radius_medium;
+    padding: 25px;
+    position: relative;
+    width: 100%;
+
+    &_input {
+        margin-bottom: 20px;
+    }
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.media_container {
+    flex-wrap: nowrap;
+    display: flex;
+    gap: 10px;
+}
+
+.btn_restore {
+    display: block;
+    margin: 0 auto;
+}
+
+.btn_login {
+    margin-top: 30px;
+}
+.image {
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
+
+.line {
+    width: 151px;
+    height: 2px;
+    background-color: $color_primary;
+}

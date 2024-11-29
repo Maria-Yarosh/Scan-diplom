@@ -1,0 +1,20 @@
+@import '../scss/base';
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.field {
+    border: 1px solid $border_color_primary;
+    border-radius: 5px;
+    padding: 15px 12px;
+    .error & {
+        border: 1px solid $color_error;
+        box-shadow: 0 0 20px 0 $box-shadow-error;
+        color: $color_error;
+    }
+}
+.error_text {
+    color: $color_error;
+}

@@ -1,0 +1,23 @@
+@mixin text_base_p4($font-weight: 400) {
+    font-size: 14px;
+    line-height: 100%;
+    font-weight: $font-weight;
+}
+
+@mixin text_base_p2($font-weight: 400) {
+    font-size: 22px;
+    line-height: 100%;
+    font-weight: $font-weight;
+}
+
+@mixin text_base_p3($font-weight: 400) {
+    font-size: 16px;
+    line-height: 100%;
+    font-weight: $font-weight;
+}
+
+@mixin header_base_h1($font-weight: 400) {
+    font-size: 40px;
+    line-height: 100%;
+    font-weight: $font-weight;
+}

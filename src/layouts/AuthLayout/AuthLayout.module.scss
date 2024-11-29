@@ -1,0 +1,23 @@
+@import '../../components//scss/base';
+.auth_layout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 60px
+}
+
+.line {
+    width: 2px;
+    background-color: $color_primary;
+    opacity: 60%;
+    height: 26px;
+}
+
+
+.header_login {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    align-items: center;
+}

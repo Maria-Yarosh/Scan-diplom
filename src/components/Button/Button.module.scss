@@ -1,0 +1,72 @@
+@import '../scss/base';
+
+.button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    &.small {
+        width: 65px;
+        height: 26px;
+        padding: 4px 12px;
+    }
+
+    &.medium,  &.large, &.full_width {
+        height: 59px;
+    }
+
+    &.medium {
+      width: 335px;
+    }
+
+    &.medium {
+        @include text_base_p3();
+    }
+
+    &.full_width {
+        width: 100%;
+    }
+
+    &.primary {
+        @include text_base_p2(500);
+        color: $color_primary_light;
+        background-color: $color_secondary_dark;
+    }
+
+    &.secondary {
+        @include text_base_p4(500);
+        color: $color_primary_dark;
+        background-color: $color_secondary_light;
+    }
+
+    &:active:not(.disabled):not(.link) {
+        box-shadow: inset 0 0 5px rgba(0, 0, 0, .5);
+    }
+
+    &.disabled {
+        opacity: 50%;
+        cursor: not-allowed;
+        pointer-events: none;
+    }
+
+    &.link {
+        opacity: 40%;
+    }
+
+    &.link:not(.disabled):active {
+        opacity: 10%;
+    }
+
+    &.linkBorder {
+        color: $color_primary;
+        border-bottom: 2px solid $color_primary;
+        border-radius: 0px;
+        }
+    
+         &.linkBorder:not(.disabled):active {
+        color: $border_color_primary;
+        border-bottom: 2px solid $border_color_primary;
+        border-radius: 0px;
+        }
+}

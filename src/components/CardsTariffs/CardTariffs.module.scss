@@ -1,0 +1,75 @@
+@import '../../components//scss/base';
+
+.card_container {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 480px) {
+        flex-wrap: wrap;
+    }
+}
+
+.check_mark {
+    object-fit: contain;
+}
+
+.check {
+    display: flex;
+}
+
+
+.card {
+    border-radius: 10px;
+    max-width: 420px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &.beginner {
+        border: medium solid $main_beginner;
+    }
+
+    &.pro, &.business {
+        border: medium solid $border_color_primary;
+    }
+}
+
+.header {
+    display: flex;
+    min-height: 130px;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+    .beginner & {
+        background-color: $main_beginner;
+    }
+
+    .pro & {
+        background-color: $main_pro;
+    }
+
+    .business & {
+        background-color: $main_business;
+        color: $color_primary_light;
+    }
+}
+
+.card_description {
+    padding: 10px;
+}
+
+.card_top {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.image {
+    width: 110px;
+    height: 110px;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}

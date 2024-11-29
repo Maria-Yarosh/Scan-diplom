@@ -1,0 +1,13 @@
+@import '../../components/scss/base';
+.auth {
+    display: flex;
+    gap: 20%;
+    padding: 69px 0 80px 0;
+    &_left_side {
+        max-width: 760px;
+        width: 100%;
+    }
+    &_left_side_title {
+        @include header_base_h1(900);
+    }
+};
